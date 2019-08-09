@@ -12,18 +12,17 @@ session_start();
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Home</title>
+    <title></title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="../css/business-casual.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
 </head>
 
 <body>
@@ -49,19 +48,19 @@ session_start();
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.php">Home</a>
+                        <a href="../index.php">Home</a>
                     </li>
                     <li>
-                        <a href="View/login.php">Login</a>
+                        <a href="login.php">Login</a>
                     </li>
                     <li>
-                        <a href="View/daftar.php">Daftar</a>
+                        <a href="daftar.php">Daftar</a>
                     </li>
                     <li>
-                        <a href="View/pilih.php">Informasi Kontrakan</a>
+                        <a href="pilih.php">Informasi Kontrakan</a>
                     </li>
                     <li>
-                        <a href="View/contact.php">Tentang Kami</a>
+                        <a href="contact.php">Tentang Kami</a>
                     </li>
                 </ul>
             </div>
@@ -76,58 +75,18 @@ session_start();
             <div class="box">
                 <div class="col-lg-12 text-center">
                     <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
+                        <p>Tujuan</p>
+<p>1. Untuk mempermudah para pekerja, mahasiswa maupun yang sudah berkeluaga mencari atau melacak rumah  kontrakan yang ingin dicari dan ditampilkan secara virtual berbentuk icon rumah.</p>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="img/1.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/3.jpg" alt="">
-                            </div>
-                        </div>
+<p>2. Mengoptimalkan waktu untuk mengurangi perjalanan dari rumah ke kantor atau dari rumah ke sekolah ataupun kampus.</p>
 
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
+                        </p>
                     </div>
-                    <h2 class="brand-before">
-                        <small>Selamat Datang di</small>
-                    </h2>
-                    <h1 class="brand-name">RENTED HOUSE</h1>
-                    <hr class="tagline-divider">
-                    <h2>
-                        <small>Menyewa Rumah Minimalis</small>
-                    </h2>
                 </div>
             </div>
         </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
-
 </body>
 
 </html>
